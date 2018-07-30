@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Insta Drag And Drop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="text-center font-italic">Insta Perritos</h1>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <ul>
+        <li>
+            <img id="drag1" src="https://i.pinimg.com/originals/8b/f5/c7/8bf5c76fc163cd492b3edeacc65b95d1.jpg" draggable="true" ondragstart="drag(event)">
+        </li>
+        <li>
+            <img id="drag2" src="http://imagenesdecachorros.com/wp-content/uploads/2016/09/descargar-fotos-de-perritos-tiernos.jpg" draggable="true"
+                ondragstart="drag(event)">
+        </li>
+        <li>
+            <img id="drag3" src="https://pbs.twimg.com/profile_images/2475429849/perritos_20tiernis_400x400.jpg" draggable="true" ondragstart="drag(event)">
+        </li>
+        <li>
+            <img id="drag4" src="http://www.mundomascotita.com/wp-content/uploads/2016/08/do1-290x300.jpg" draggable="true" ondragstart="drag(event)">
+        </li>
+        <li>
+            <img id="drag5" src="https://www.recreoviral.com/wp-content/uploads/2017/01/Perritos-tazas-de-te-4.jpg" draggable="true"
+                ondragstart="drag(event)">
+        </li>
+        <li>
+            <img id="drag6" src="https://i.pinimg.com/originals/f3/50/f2/f350f2e8980b4bb347e5b724fca8aa04.jpg" draggable="true" ondragstart="drag(event)">
+        </li>
+    </ul>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
