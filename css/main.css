@@ -32,6 +32,7 @@ li{
     height: 100px;
     margin: 10px;
     margin-left: 5px;
+    box-sizing: border-box;
 } 
 
 .dog-img:hover{
@@ -39,8 +40,8 @@ li{
 }
 
 #div1{
-    width: 80%;
-    height: 400px;
+    width: 85%;
+    height: 237px;
     float: left;
     margin: 10%;
     box-sizing: border-box;
