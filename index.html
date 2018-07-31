@@ -8,15 +8,19 @@
     <title>Insta Drag And Drop</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 
 <body>
-    <h1 class="text-center font-italic">
+    <h1 class="text-center text-white">
         <img src="assets/perro.png" alt="perro">Insta Perritos
-        <img src="assets/huella-de-pata.png" alt="huella-perro">
+        <img src="assets/perro.png" alt="perro">
     </h1>
-    <div class="border border-white rounded" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <p class="text-center p-3 mb-2 bg-secondary text-white"><i class="fab fa-instagram"></i> PHOTO BOOTH</p>
+    <div class="border border-white rounded" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+    <p class="text-center text-white"> Arrastra los perritos hacía el cuadro para formar tu collage  <img src="assets/huellas-de-animales.png"></p>
     <ul>
         <li>
             <img id="drag1" class="dog-img" src="https://i.pinimg.com/originals/8b/f5/c7/8bf5c76fc163cd492b3edeacc65b95d1.jpg" draggable="true"
